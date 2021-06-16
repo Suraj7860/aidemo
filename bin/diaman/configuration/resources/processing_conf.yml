@@ -1,0 +1,42 @@
+vect_parameters:
+    strip_accents: unicode
+    lowercase: True
+    # When building the vocabulary ignore terms that have a
+    # document frequency strictly higher than
+    # the given threshold (corpus-specific stop words).
+    # If float, the parameter represents a proportion of documents,
+    # integer absolute counts. This parameter is ignored
+    # if vocabulary is not None.
+    max_df: 0.7
+    # When building the vocabulary ignore terms that have a
+    # document frequency strictly lower than the given threshold.
+    # This value is also called cut-off in the literature.
+    # If float, the parameter represents a proportion of documents,
+    # integer absolute counts. This parameter is ignored
+    # if vocabulary is not None.
+    min_df: 5
+    # The lower and upper boundary of the range of n-values for different
+    # n-grams to be extracted.
+    # All values of n such that min_n <= n <= max_n will be used.
+    ngram_range:
+      min: 1
+      max: 1
+
+
+lda_parameters:
+    # Maximum number of iteration for the EM procedure
+    max_iter: 200
+    # How often to evaluate perplexity. Only used in fit method.
+    # set it to 0 or negative number to not evalute perplexity in
+    # training at all. Evaluating perplexity can help you check convergence
+    # in training process, but it will also increase total training time.
+    # Evaluating perplexity in every iteration might increase
+    # training time up to two-fold.
+    evaluate_every: 4
+    # Perplexity tolerance in batch learning.
+    # Only used when evaluate_every is greater than 0.
+    perp_tol: .01
+    # Number of topics
+    n_components: 5
+    learning_method: batch
+    random_state: 12

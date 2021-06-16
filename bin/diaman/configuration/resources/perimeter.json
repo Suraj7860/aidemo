@@ -1,0 +1,96 @@
+{
+  "indus_perimeter": {
+
+    "fr": {
+      "name": "french",
+      "shops": ["STA", "BSH", "PAI", "ASS", "FOU", "LOG", "FOR", "MEC", "UTI"],
+      "sites": {
+        "PY": "Poissy",
+        "MU": "Mulhouse",
+        "SX": "Sochaux",
+        "VH": "Sevel Nord",
+        "RJ": "Rennes",
+        "KE": "Kenitra",
+        "CH": "CHARLEVILLE",
+        "MY": "TREMERY",
+        "CA": "CAEN",
+        "MS": "METZ",
+        "VV": "VELIZY",
+        "SF": "SEPT-FONS",
+        "FM": "DOUVRIN - FRANCAISE DE MECANIQUE",
+        "VS": "VALENCIENNES",
+        "CY": "CARRIERES-SOUS-POISSY",
+        "VE": "VESOUL",
+        "BP": "BELCHAMP",
+        "SO": "SAINT OUEN (USINE)",
+        "HE": "HERIMONCOURT"
+      }
+    },
+
+    "es": {
+      "name": "spanish",
+      "shops": [],
+      "sites": {
+        "VL": "Madrid",
+        "PL": "BUENOS AIRES - PALOMAR",
+        "VF": "Vigo"
+      }
+    },
+
+    "sk": {
+      "name": "slovak",
+      "shops": [],
+      "sites": {
+        "TA": "Trnava"
+      }
+    },
+
+    "pt": {
+      "name": "portuguese",
+      "shops": [],
+      "sites": {
+        "MG": "Mangualde",
+        "PR": "Porto Real"
+      }
+    },
+
+    "ru": {
+      "name": "russian",
+      "shops": [],
+      "sites": {
+        "KA": "Kaluga"
+      }
+    },
+
+    "en": {
+      "name": "english",
+      "shops": [],
+      "sites": {
+        "LU": "Luton"
+      }
+    }
+  },
+
+  "gmt_columns": {
+    "AUFNR": "AUFNR",
+    "AUART": "AUART",
+    "KTEXT": "DESCR_ORDER",
+    "STATUS": "STATUS",
+    "EQUNR": "EQUNR",
+    "SHTXT": "DESCR_EQUI",
+    "ERDAT": "ERDAT",
+    "VOR": "TRAFF_LIGHT",
+    "COMMENTAIRE": "COMMENT",
+    "COMPONENTS": "COMPONENTS",
+    "ISMNW": "DURA_EQUI",
+    "MEDIAS": "MEDIAS",
+    "PLANT_CODE": "CODE_SITE",
+    "BUSINESS": "CODE_SHOP",
+    "HERST": "CONSTRUCTOR"
+  },
+
+  "diaman_search_cols": ["AUFNR", "AUART", "DESCR_ORDER", "STATUS", "EQUNR",
+                         "DESCR_EQUI", "ERDAT", "TRAFF_LIGHT", "COMMENT",
+                         "COMPONENTS", "OPERATION", "MEDIAS", "CODE_SITE",
+                         "CONSTRUCTOR", "RATING"]
+}
